@@ -19,6 +19,8 @@
 		0226A0A71FE7572100852405 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0226A0A61FE7572100852405 /* InterfaceController.swift */; };
 		0226A0A91FE7572100852405 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0226A0A81FE7572100852405 /* ExtensionDelegate.swift */; };
 		0226A0AB1FE7572100852405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0226A0AA1FE7572100852405 /* Assets.xcassets */; };
+		0226A0BC1FE7593A00852405 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0226A0BA1FE7593A00852405 /* KeychainItemAccessibility.swift */; };
+		0226A0BD1FE7593A00852405 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0226A0BB1FE7593A00852405 /* KeychainWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,8 @@
 		0226A0A81FE7572100852405 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		0226A0AA1FE7572100852405 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0226A0AC1FE7572100852405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0226A0BA1FE7593A00852405 /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
+		0226A0BB1FE7593A00852405 /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +152,8 @@
 			children = (
 				0226A0A61FE7572100852405 /* InterfaceController.swift */,
 				0226A0A81FE7572100852405 /* ExtensionDelegate.swift */,
+				0226A0BA1FE7593A00852405 /* KeychainItemAccessibility.swift */,
+				0226A0BB1FE7593A00852405 /* KeychainWrapper.swift */,
 				0226A0AA1FE7572100852405 /* Assets.xcassets */,
 				0226A0AC1FE7572100852405 /* Info.plist */,
 			);
@@ -299,7 +305,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0226A0A91FE7572100852405 /* ExtensionDelegate.swift in Sources */,
+				0226A0BD1FE7593A00852405 /* KeychainWrapper.swift in Sources */,
 				0226A0A71FE7572100852405 /* InterfaceController.swift in Sources */,
+				0226A0BC1FE7593A00852405 /* KeychainItemAccessibility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
